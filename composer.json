@@ -1,0 +1,14 @@
+{
+  "name": "long-blade/stackerstack",
+  "type": "library",
+  "description": "A simple LIFO|FIFO file stacker",
+  "keywords": ["stacker","lifo","fifo","stack", "database"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Michael Mavroforakis",
+      "email": "mixalis365@hotmail.com",
+      "role": "Developer"
+    }
+  ]
+}
