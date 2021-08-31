@@ -2,7 +2,7 @@
   "name": "long-blade/stackerstack",
   "type": "library",
   "description": "A simple LIFO|FIFO file stacker",
-  "keywords": ["stacker","lifo","fifo","stack", "database"],
+  "keywords": ["stacker","lifo","fifo","stack", "database", "LIFO", "FIFO"],
   "license": "MIT",
   "authors": [
     {
