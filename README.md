@@ -7,7 +7,7 @@ This library provides a simple file stacking solution using [LIFO / FIFO](https:
 The suggested installation method is via [composer](https://getcomposer.org/):
 
 ```sh
-php composer.phar require "long-blade/stakerstack"
+composer require long-blade/stackerstack
 ```
 
 ## Usage
