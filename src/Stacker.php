@@ -2,6 +2,8 @@
 
 namespace StackerStack;
 
+use StackerStack\Contracts\StackInterface;
+
 abstract class Stacker implements StackInterface
 {
     /**
