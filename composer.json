@@ -10,5 +10,10 @@
       "email": "mixalis365@hotmail.com",
       "role": "Developer"
     }
-  ]
+  ],
+  "autoload": {
+    "psr-4": {
+        "stackerstack\\": "src/stackerstack/"
+    }
+  }
 }
