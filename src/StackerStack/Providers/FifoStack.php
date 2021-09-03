@@ -1,6 +1,6 @@
 <?php
 
-namespace stackerstack;
+namespace StackerStack;
 
 class FifoStack extends Stacker
 {

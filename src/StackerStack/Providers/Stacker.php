@@ -1,6 +1,6 @@
 <?php
 
-namespace stackerstack;
+namespace StackerStack;
 
 abstract class Stacker implements StackInterface
 {

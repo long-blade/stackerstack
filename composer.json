@@ -13,7 +13,7 @@
   ],
   "autoload": {
     "psr-4": {
-        "stackerstack\\": "stacker-stack/src"
+        "StackerStack\\": "src/StackerStack"
     }
   }
 }
