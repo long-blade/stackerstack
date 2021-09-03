@@ -1,8 +1,8 @@
 <?php
 
-namespace App\StackerStack\src\Providers;
+namespace stackerstack;
 
-use App\StackerStack\src\Contracts\StackInterface;
+use \stackerstack\StackInterface;
 
 abstract class Stacker implements StackInterface
 {

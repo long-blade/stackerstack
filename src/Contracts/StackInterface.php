@@ -1,6 +1,6 @@
 <?php
 
-namespace App\StackerStack\src\Contracts;
+namespace stackerstack;
 
 interface StackInterface
 {
