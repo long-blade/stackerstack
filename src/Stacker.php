@@ -23,6 +23,22 @@ abstract class Stacker implements StackInterface
     }
 
     /**
+     * Calculates if stack is empty or not.
+     * @return bool
+     */
+    public function isEmpty(): bool
+    {
+        if (file_exists($this->filePath))
+            $fileData = file_get_contents($this->filePath);
+
+        if(isset($fileData) && $fileData){
+            return empty(json_decode($fileData));
+        }
+
+        return true;
+    }
+
+    /**
      * @param $data
      */
     protected function add($data): void
@@ -41,6 +57,4 @@ abstract class Stacker implements StackInterface
             file_put_contents($this->filePath, $jsonData);
         }
     }
-
-
 }
