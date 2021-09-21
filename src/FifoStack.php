@@ -20,7 +20,7 @@ class FifoStack extends Stacker
                 // pop the top element
                 $poppedNode = array_shift($tmp);
                 // Save the array without the popped element.
-                file_put_contents($this->filePath, json_encode($tmp));
+                file_put_contents($this->filePath, json_encode($tmp, JSON_UNESCAPED_UNICODE));
                 return $poppedNode;
             }
         }
