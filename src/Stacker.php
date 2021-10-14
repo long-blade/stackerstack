@@ -50,11 +50,11 @@ abstract class Stacker implements StackInterface
         if(isset($fileData) && $fileData){
             $tmp = json_decode($fileData);
             array_push($tmp, $data);
-            $jsonData = json_encode($tmp);
+            $jsonData = json_encode($tmp, JSON_UNESCAPED_UNICODE);
             file_put_contents($this->filePath, $jsonData);
         }else{
             //First time
-            $jsonData = json_encode([$data]);
+            $jsonData = json_encode([$data], JSON_UNESCAPED_UNICODE);
             file_put_contents($this->filePath, $jsonData);
         }
     }
