@@ -15,11 +15,12 @@ abstract class Stacker implements StackInterface
     }
 
     /**
+     * @param bool $associative
      * @return mixed
      */
-    public function pop()
+    public function pop(bool $associative = true)
     {
-        return $this->get();
+        return $this->get($associative);
     }
 
     /**
